@@ -23,10 +23,12 @@ body{
 
 img{
   margin: 3vw;
+  background-size: 12px;
+  width: 30vw;
 }
 
 .wrapper{
-  max-width: 90%;
+  max-width: 60%;
   margin: 0 auto;
 }
 
@@ -89,8 +91,9 @@ img{
 
 .text{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   width: 95%;
+  margin: 0vw 2vw;
 }
 
 .csslider > ul > li.scrollable {
@@ -98,8 +101,8 @@ img{
 }
 .csslider > .navigation {
   position: absolute;
-  bottom: -8px;
-  left: 50%;
+  bottom: 1.3vw;
+  right: 0%;
   z-index: 10;
   margin-bottom: -10px;
   line-height: 0;
