@@ -102,7 +102,7 @@ li {
   display: flex;
   flex-direction: row;
   width: 95%;
-  margin: 0vw 0vw;
+  margin: 0.1vw 0vw;
 }
 
 li.scrollable {
