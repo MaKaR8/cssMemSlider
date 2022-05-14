@@ -102,7 +102,7 @@ li {
   display: flex;
   flex-direction: row;
   width: 95%;
-  margin: 0.1vw 0vw;
+  margin: 0vw 0vw 0.2vw 0vw;
 }
 
 li.scrollable {
@@ -241,7 +241,7 @@ input:nth-of-type(4):checked ~ .arrows label:nth-of-type(5) {
   .navigation {
     position: absolute;
     bottom: 5vw;
-    left: 4vw;
+    left: 9.5vw;
     z-index: 10;
     user-select: none;
   }
@@ -255,7 +255,7 @@ input:nth-of-type(4):checked ~ .arrows label:nth-of-type(5) {
   }
 
   .text {
-    margin: 3vw 0vw 0vw 0vw;
+    margin: 3vw 0vw 0.3vw 0vw;
   }
 
   .arrows label {
